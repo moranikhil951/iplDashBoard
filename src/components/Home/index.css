@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .ipl-mini-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Home-Container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-ipl {
+    height: 80px;
+  }
+
+  .unorderedList {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ipl-heading {
+    font-size: 50px;
+    color: white;
+    font-family: Bree Serif;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ipl-mini-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Home-Container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-ipl {
+    height: 40px;
+  }
+
+  .unorderedList {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ipl-heading {
+    font-size: 25px;
+    color: white;
+    font-family: Bree Serif;
+    margin-left: 6px;
+  }
+}

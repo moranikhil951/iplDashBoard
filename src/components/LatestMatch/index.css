@@ -1,0 +1,126 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .latest-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .latest-image {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  .latest-heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 25px;
+    margin-bottom: 45px;
+  }
+  .date-match {
+    color: #ffffff;
+    font-family: Bree Serif;
+    margin-bottom: 45px;
+  }
+
+  .venue-match {
+    color: #ffffff;
+    font-family: Bree Serif;
+  }
+
+  .latest-innings {
+    color: #ffffff;
+    font-family: Bree Serif;
+    text-align: right;
+  }
+
+  .values-latest {
+    color: #ffffff;
+    font-family: Bree Serif;
+    text-align: right;
+  }
+  .venue-matches {
+    color: #ffffff;
+    font-family: Bree Serif;
+    text-align: right;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .horizantal-line {
+    border: 0;
+  }
+  .right-holder {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .latest-card {
+    background-color: #1e293b;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .latest-image {
+    height: 80px;
+    margin-left: 40px;
+  }
+  .latest-heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .date-match {
+    color: #ffffff;
+    font-family: Bree Serif;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .venue-match {
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-size: 10px;
+  }
+
+  .latest-innings {
+    color: #ffffff;
+    font-family: Bree Serif;
+
+    font-size: 13px;
+  }
+
+  .values-latest {
+    color: #ffffff;
+    font-family: Bree Serif;
+
+    font-size: 10px;
+  }
+  .venue-matches {
+    color: #ffffff;
+    font-family: Bree Serif;
+  }
+  .left-holder {
+    width: 50%;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .horizantal-line {
+    color: #475569;
+    width: 100%;
+  }
+}

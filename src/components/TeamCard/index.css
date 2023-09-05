@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .imageLogo {
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .team-name {
+    font-size: 20px;
+    color: white;
+  }
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid gray;
+    width: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .imageLogo {
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .team-name {
+    font-size: 14px;
+    color: white;
+  }
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid gray;
+    width: 300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+  }
+}

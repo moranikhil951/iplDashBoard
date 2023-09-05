@@ -1,0 +1,106 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .bg-container {
+    min-height: 100vh;
+    padding: 30px;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  .recent-UnOrderlist {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .KKR {
+    background-image: linear-gradient(#0f172a, black);
+  }
+
+  .RCB {
+    background-image: linear-gradient(#d91c1f, black);
+  }
+
+  .SH {
+    background-image: linear-gradient(#f26d22, black);
+  }
+
+  .KXP {
+    background-image: linear-gradient(#d91c1f, black);
+  }
+  .CSK {
+    background-image: linear-gradient(#f7db00, black);
+  }
+  .MI {
+    background-image: linear-gradient(#13418b, black);
+  }
+
+  .DC {
+    background-image: linear-gradient(#4f5db0, black);
+  }
+  .RR {
+    background-image: linear-gradient(#da237b, black);
+  }
+  .latest-name {
+    color: White;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    min-height: 100vh;
+    padding: 15px;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  .recent-UnOrderlist {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .KKR {
+    background-image: linear-gradient(#0f172a, black);
+  }
+
+  .RCB {
+    background-image: linear-gradient(#d91c1f, black);
+  }
+
+  .SH {
+    background-image: linear-gradient(#f26d22, black);
+  }
+
+  .KXP {
+    background-image: linear-gradient(#d91c1f, black);
+  }
+  .CSK {
+    background-image: linear-gradient(#f7db00, black);
+  }
+  .MI {
+    background-image: linear-gradient(#13418b, black);
+  }
+
+  .DC {
+    background-image: linear-gradient(#4f5db0, black);
+  }
+  .RR {
+    background-image: linear-gradient(#da237b, black);
+  }
+  .latest-name {
+    color: White;
+    font-size: 15px;
+  }
+}

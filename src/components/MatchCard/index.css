@@ -1,0 +1,79 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .recent-item {
+    background-color: #1e293b;
+    width: 220px;
+    padding: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    border-radius: 10px;
+  }
+
+  .recent-logo {
+    height: 100px;
+    width: 80px;
+  }
+
+  .won {
+    color: green;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Bree Serif;
+  }
+  .lost {
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Bree Serif;
+  }
+  .match-result {
+    text-align: center;
+    color: white;
+  }
+  .team-name {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recent-item {
+    background-color: #1e293b;
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+  }
+
+  .recent-logo {
+    height: 100px;
+    width: 80px;
+  }
+
+  .won {
+    color: green;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Bree Serif;
+  }
+  .lost {
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Bree Serif;
+  }
+  .match-result {
+    text-align: center;
+    color: white;
+  }
+  .team-name {
+    text-align: center;
+  }
+}
